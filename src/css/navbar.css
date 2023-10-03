@@ -1,5 +1,5 @@
  .navdiv {
-    background-color: #474448;
+    background-color: #98D1D7;
     height: 15vh;
  }
  .navdiv ul {
@@ -17,7 +17,7 @@
    color: #2D232E !important;
  }
  .navdiv ul li a{
-  background-color: #2D232E;
+  background-color: #F79256;
   display: flex;
   justify-content: center;
   width: 100px;
