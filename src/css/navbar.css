@@ -1,0 +1,33 @@
+ .navdiv {
+    background-color: #474448;
+    height: 15vh;
+ }
+ .navdiv ul {
+    margin: auto;
+    width: 60vw;
+    display: flex;
+    padding: 0;
+    padding-top: 5vh;
+    justify-content: space-around   ;
+    list-style-type: none;
+    
+ }
+ .active {
+   background-color: #D1D5DE !important ;
+   color: #2D232E !important;
+ }
+ .navdiv ul li a{
+  background-color: #2D232E;
+  display: flex;
+  justify-content: center;
+  width: 100px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border: 1px solid #D1D5DE;
+  border-radius: 15px;
+ }
+ .navbar-link {
+    text-decoration: none;
+    color: #D1D5DE;
+ }
+ 
