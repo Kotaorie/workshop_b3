@@ -11,7 +11,7 @@
     height: 15vh;
  }
  .navdiv ul {
-    width: 45vw;
+    width: 65vw;
     display: flex;
     padding: 0;
     padding-top: 2vh;
@@ -36,5 +36,13 @@
  .navbar-link {
     text-decoration: none;
     color: #D1D5DE;
+ }
+
+ .navbar-link .image-profil {
+   width: 24px;
+   height: 24px; 
+   margin-right: 50%;
+   margin-top: -22%;
+   
  }
  
