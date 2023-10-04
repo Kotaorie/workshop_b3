@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import "../css/home.css";
+import Footer from './footer';
 
 
 function LogIn(){
@@ -31,6 +32,7 @@ function LogIn(){
                 <p>Pas encore de compte ? Inscrivez-vous</p>
             </fieldset>
             </form>
+            <Footer />
         </div>
     )
 }

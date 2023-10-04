@@ -1,17 +1,19 @@
 .footer {
     background-color: #5A6F98;
-    height: 20vh;
+    height: 15vh;
     display: flex;
     align-items: center;
     justify-content: center;
     color: white;
     text-align: center;
-      
-    }
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+  }
   
-    .reseau-social img{
-      padding: 0;
-      margin-left: 2vw;
-      width: 3vw;
-      
-    }
+  .reseau-social img {
+    padding: 0;
+    margin-left: 2vw;
+    width: 3vw;
+  }
+  

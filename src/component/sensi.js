@@ -1,6 +1,7 @@
 import React from "react";
 import carImage from "../icone/car.png";
 import "../css/sensi.css";
+import Footer from "./footer";
 
 function Sensi() {
     return (
@@ -16,6 +17,7 @@ function Sensi() {
            <div className="searchBar">
             <input type="text" placeholder="Nombre de kilomètre..." pattern="[+-]?([0-9]*[.])?[0-9]+" required/>
            </div>
+           <Footer className="footer"/>
         </div>
     );
 }

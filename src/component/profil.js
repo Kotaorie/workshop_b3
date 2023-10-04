@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "../css/profil.css";
+import Footer from "./footer";
 
 function Profil(){
     return (    
@@ -10,6 +11,7 @@ function Profil(){
                 <div className="grid2"><Link to="/createAccount"><button>Create account</button></Link></div>
                 <div className="grid3"><Link to="/logIn"><button>Log in</button></Link></div>
             </div>
+            <Footer />
         </div>
     );
     

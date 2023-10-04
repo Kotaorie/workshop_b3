@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import "../css/home.css";
+import Footer from './footer';
 
 function CreateAccount(){
     const [name, setName] = useState('');
@@ -49,6 +50,7 @@ return (
         </button>
         </fieldset>
         </form>
+        <Footer />
     </div>
     );
 }
