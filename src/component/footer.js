@@ -9,7 +9,6 @@ function Footer() {
   return (
     <footer className="footer">
       <div className="container">
-        <p>&copy; 2023 </p>
         <div className="reseau-social">
           <a href="https://www.instagram.com/">
             <img src={Instagram} alt="instagram" />
@@ -20,9 +19,17 @@ function Footer() {
           <a href="https://www.linkedin.com/">
             <img src={Linkedin} alt="linkedin" />
           </a>
-          <a href="https://www.linkedin.com/">
+          <a href="https://www.x.com/">
             <img src={X} alt="x" />
-            </a>
+          </a>
+        </div>
+        <div className="copyright">
+          <p>Copyright &copy; Team 5 </p>
+        </div>
+        <div className="footer-link">
+          <a href="#">Contact</a>
+
+          <a href="#">Politique de confidentialité</a>
         </div>
       </div>
     </footer>

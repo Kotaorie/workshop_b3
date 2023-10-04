@@ -2,16 +2,51 @@
   background-color: #5A6F98;
   height: 20vh;
   display: flex;
-  align-items: center;
-  justify-content: center;
+  padding: 10px;
   color: white;
-  text-align: center;
-    
-  }
+}
 
-  .reseau-social img{
-    padding: 0;
-    margin-left: 2vw;
-    width: 3vw;
-    
-  }
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.reseau-social {
+  text-align: left;
+}
+
+.reseau-social img {
+  padding: 0;
+  margin-left: 2vw;
+  width: 3vw;
+}
+
+.footer-content {
+  display: flex;
+  align-items: center;
+}
+
+.reseau-social a {
+  margin-right: 10px;
+}
+
+.copyright {
+  text-align: right;
+  margin-right: 20vw;
+}
+
+.copyright p {
+ margin-left: 22vw;
+}
+
+.footer-link {
+  display: flex;
+  justify-content: space-between;
+  width: 20vw;
+}
+
+.footer-link a{
+  text-decoration: none;
+  color: white;
+}
