@@ -42,7 +42,7 @@ function Navbar() {
             </NavLink>
           </li>
           <li>
-            <NavLink to="/profil" className="navbar-link">
+            <NavLink to="/profil" className="navbar-link profil">
               <img src={IconeProfil} className="image-profil" alt="IconeProfil" />
             </NavLink>
           </li>
