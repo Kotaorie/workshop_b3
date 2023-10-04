@@ -20,7 +20,13 @@ function Navbar(){
                     <li>    
                         <NavLink to="/profil" className="navbar-link">Profil</NavLink>
                     </li>
-            </ul>
+                    <li>    
+                        <NavLink to="/createAccount" className="navbar-link">Create account</NavLink>
+                    </li>
+                    <li>    
+                        <NavLink to="/login" className="navbar-link">Log in</NavLink>
+                    </li>
+                </ul>
             </div>
             <Outlet/>
         </div>
