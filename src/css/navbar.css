@@ -1,23 +1,34 @@
+img{
+   width: 12vw;
+   padding-top: 3vh;
+   padding-left: 3vw;
+
+ }
  .navdiv {
-    background-color: #98D1D7;
+    background-color: #474448;
+    display: flex;
+    justify-content: space-between;
+    background-color: #98d1d7;
     height: 15vh;
  }
  .navdiv ul {
     margin: auto;
     width: 60vw;
+    width: 45vw;
     display: flex;
     padding: 0;
     padding-top: 5vh;
+    padding-top: 2vh;
     justify-content: space-around   ;
     list-style-type: none;
-    
+
  }
  .active {
    background-color: #D1D5DE !important ;
    color: #2D232E !important;
  }
  .navdiv ul li a{
-  background-color: #F79256;
+  background-color: #2D232E;
   display: flex;
   justify-content: center;
   width: 100px;
@@ -30,4 +41,3 @@
     text-decoration: none;
     color: #D1D5DE;
  }
- 
