@@ -39,8 +39,7 @@ directionsService.route(
     {
     origin: origin,
     destination: destination,
-    travelMode: 'WALKING',
-    travelMode: 'BIKE'
+    travelMode: 'BICYCLING',
     },
     (result, status) => {
     if (status === 'OK') {
