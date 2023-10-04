@@ -1,6 +1,6 @@
 import React from "react";
 import carImage from "../icone/car.png";
-import "./css/sensi.css";
+import "../css/sensi.css";
 
 function Sensi() {
     return (

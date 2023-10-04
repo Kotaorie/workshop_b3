@@ -15,7 +15,7 @@ function LogIn(){
                 <div>
                 <label>
                     E-mail
-                    <input type="email" v alue={email} onChange={(e) =>setEmail(e.target.value)} />
+                    <input type="email" value={email} onChange={(e) =>setEmail(e.target.value)} />
                 </label>
                 </div>
                 <div>

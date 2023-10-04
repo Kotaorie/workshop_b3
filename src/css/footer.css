@@ -1,9 +1,17 @@
 .footer {
     background-color: #5A6F98;
-    height: 15vh;
+    height: 20vh;
     display: flex;
     align-items: center;
     justify-content: center;
     color: white;
     text-align: center;
-  }
+      
+    }
+  
+    .reseau-social img{
+      padding: 0;
+      margin-left: 2vw;
+      width: 3vw;
+      
+    }
