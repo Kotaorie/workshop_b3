@@ -4,7 +4,8 @@ import "../css/home.css";
 function createAccount(){
     return (
         <div>
-            <p>Creation de compte</p>
+            <h2>Inscription</h2>
+            
         </div>
     )
 }
