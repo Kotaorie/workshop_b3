@@ -18,12 +18,12 @@ function Navbar() {
           </li>
           <li>
             <NavLink to="/help" className="navbar-link">
-              Help
+              Co'Help
             </NavLink>
           </li>
           <li>
             <NavLink to="/garden" className="navbar-link">
-              Garden
+              Co'Garden
             </NavLink>
           </li>
           <li>
@@ -43,7 +43,6 @@ function Navbar() {
           </li>
           <li>
             <NavLink to="/profil" className="navbar-link">
-                
               <img src={IconeProfil} className="image-profil" alt="IconeProfil" />
             </NavLink>
           </li>
