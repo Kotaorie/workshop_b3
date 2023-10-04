@@ -1,38 +1,56 @@
 import React from "react";
 import "../css/navbar.css";
-import {NavLink, Outlet} from "react-router-dom";
+import IconeProfil from "../icone/profil.png";
+import { NavLink, Outlet } from "react-router-dom";
 
-function Navbar(){
-    return (
+function Navbar() {
+  return (
+    <div>
+      <div className="navdiv">
         <div>
-            <div className="navdiv">
-                <div><img src="/img/logo.png" alt="test"/></div>
-                <ul>
-                    <li>
-                        <NavLink to="/" className="navbar-link">Home</NavLink>
-                    </li>
-                    <li>
-                        <NavLink to="/help" className="navbar-link">Help</NavLink>
-                    </li>
-                    <li>
-                        <NavLink to="/garden" className="navbar-link">Garden</NavLink>
-                    </li>
-                    <li>    
-                        <NavLink to="/profil" className="navbar-link">Profil</NavLink>
-                    </li>
-                    <li>    
-                        <NavLink to="/createAccount" className="navbar-link">Create account</NavLink>
-                    </li>
-                    <li>    
-                        <NavLink to="/login" className="navbar-link">Log in</NavLink>
-                    </li>
-                </ul>
-            </div>
-            <Outlet/>
+          <img src="/img/logo.png" alt="test" />
         </div>
-        
-    );
-    
+        <ul>
+          <li>
+            <NavLink to="/" className="navbar-link">
+              Home
+            </NavLink>
+          </li>
+          <li>
+            <NavLink to="/help" className="navbar-link">
+              Co'Help
+            </NavLink>
+          </li>
+          <li>
+            <NavLink to="/garden" className="navbar-link">
+              Co'Garden
+            </NavLink>
+          </li>
+          <li>
+            <NavLink to="/sensi" className="navbar-link">
+              Co'Sensi
+            </NavLink>
+          </li>
+          <li>
+            <NavLink to="/mission" className="navbar-link">
+              Co'Mission
+            </NavLink>
+          </li>
+          <li>
+            <NavLink to="/don" className="navbar-link">
+              Co'Dons
+            </NavLink>
+          </li>
+          <li>
+            <NavLink to="/profil" className="navbar-link profil">
+              <img src={IconeProfil} className="image-profil" alt="IconeProfil" />
+            </NavLink>
+          </li>
+        </ul>
+      </div>
+      <Outlet />
+    </div>
+  );
 }
 
 export default Navbar;
