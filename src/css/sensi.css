@@ -1,0 +1,26 @@
+.searchBar{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+input {
+    width: 50em;
+    font-size: 16px;
+    padding : 15px;
+    border-radius: 15px;
+    filter: drop-shadow(#6f6c6c 0.1rem 0.2rem 5px);
+}
+
+.imageSensi{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin : 50px
+}
+
+h1{
+   font-size: 24px;
+   color : black;
+   margin : 20px !important;
+}
