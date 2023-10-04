@@ -11,6 +11,13 @@ const images = [
 "/images/windmill-5591464_1280.jpg",
 ];
 
+const [isNavOpen, setIsNavOpen] = useState(false);
+
+  const toggleNav = () => {
+    setIsNavOpen(!isNavOpen);
+  };
+
+
 const nextSlide = () => {
 setCurrentSlide((prevSlide) => (prevSlide === images.length - 1 ? 0 : prevSlide + 1));
 };
@@ -30,7 +37,6 @@ return (
     <div>
     <h1>Bienvenue sur CO'PART</h1>
     </div>
-
     <div className="carousel">
     
     <img
