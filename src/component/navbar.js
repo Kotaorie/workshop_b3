@@ -32,7 +32,7 @@ function Navbar() {
             </NavLink>
           </li>
           <li>
-            <NavLink to="/mission" className="navbar-link">
+            <NavLink to="/createMission" className="navbar-link">
               Co'Mission
             </NavLink>
           </li>

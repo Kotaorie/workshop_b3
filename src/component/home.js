@@ -21,7 +21,8 @@ function Co_missions(){
         return () => {
           clearInterval(interval);
         };
-      }, []);
+      }, 
+      );
     
       const previousSlide = () => {
         setCurrentSlide((prevSlide) => (prevSlide === 0 ? images.length - 1 : prevSlide - 1));
@@ -61,7 +62,7 @@ function Co_missions(){
             <div className="homeSpace">
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo ducimus qui natus velit officiis totam obcaecati itaque veritatis accusantium ad eveniet tempore laudantium, nihil in sit earum voluptatum fugit. Ab!</p>
                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nesciunt accusamus placeat beatae aspernatur iure consectetur eaque minima eligendi! Harum natus, aut non debitis in quisquam soluta magni ut ipsum. Nesciunt. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat aperiam placeat, eligendi atque maxime accusamus tenetur cumque distinctio veniam quos tempora aliquid, fugit dolorum optio earum, nihil explicabo esse delectus?
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nesciunt accusamus placeat beatae aspernatur iure consectetur eaque minima eligendi! Harum natus, aut non debitis in quisquam soluta magni ut ipsum. Nesciunt. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat aperiam placeat, eligendi atque maxime accusamus tenetur cumque distinctio veniam quos tempora aliquid, fugit dolorum optio earum, nihil explicabo esse delectus?
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nesciunt accusamus placeat beatae aspernatur iure consectetur eaque minima eligendi! Harum natus, aut non debitis in quisquam soluta magni ut ipsum. Nesciunt. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat aperiam placeat, eligendi atque maxime accusamus tenetur cumque distinctio veniam quos tempora aliquid, fugit dolorum optio earum, nihil explicabo esse delectus?
                 Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nesciunt accusamus placeat beatae aspernatur iure consectetur eaque minima eligendi! Harum natus, aut non debitis in quisquam soluta magni ut ipsum. Nesciunt. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat aperiam placeat, eligendi atque maxime accusamus tenetur cumque distinctio veniam quos tempora aliquid, fugit dolorum optio earum, nihil explicabo esse delectus?
                 </p>
 
