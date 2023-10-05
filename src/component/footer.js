@@ -24,7 +24,7 @@ function Footer() {
           </a>
         </div>
         <div className="copyright">
-          <p>Copyright &copy; Team 5 </p>
+          <p>Copyright &copy; Team 5 - Co'Part a  </p>
         </div>
         <div className="footer-link">
           <a href="#">Contact</a>
