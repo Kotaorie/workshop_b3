@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './app';
 import reportWebVitals from './reportWebVitals';
+import { GoogleMap, LoadScript, Marker, DirectionsRenderer } from '@react-google-maps/api';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
