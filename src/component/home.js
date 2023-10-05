@@ -51,7 +51,6 @@ function Co_missions(){
                 <p>Peinture, carlage ou encore jardinage ! Vous disposez de compétences techniques et vous avez le sens du partage ? </p>
                 <p>Proposez vos services sur Copart, faites des rencontres, entraidez vous et apprenez auprès de vos voisins.</p>
             </div>
-                
             <Footer />
         </div>
     );

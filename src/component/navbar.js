@@ -28,6 +28,7 @@ function Navbar() {
           </li>
           <li>
             <NavLink to="/createMission" className="navbar-link">
+
               Co'Mission
             </NavLink>
           </li>
