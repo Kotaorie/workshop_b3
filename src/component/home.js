@@ -47,13 +47,9 @@ function Co_missions(){
             </div>
 
             <div className="homeSpace">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo ducimus qui natus velit officiis totam obcaecati itaque veritatis accusantium ad eveniet tempore laudantium, nihil in sit earum voluptatum fugit. Ab!</p>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nesciunt accusamus placeat beatae aspernatur iure consectetur eaque minima eligendi! Harum natus, aut non debitis in quisquam soluta magni ut ipsum. Nesciunt. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat aperiam placeat, eligendi atque maxime accusamus tenetur cumque distinctio veniam quos tempora aliquid, fugit dolorum optio earum, nihil explicabo esse delectus?
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nesciunt accusamus placeat beatae aspernatur iure consectetur eaque minima eligendi! Harum natus, aut non debitis in quisquam soluta magni ut ipsum. Nesciunt. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat aperiam placeat, eligendi atque maxime accusamus tenetur cumque distinctio veniam quos tempora aliquid, fugit dolorum optio earum, nihil explicabo esse delectus?
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nesciunt accusamus placeat beatae aspernatur iure consectetur eaque minima eligendi! Harum natus, aut non debitis in quisquam soluta magni ut ipsum. Nesciunt. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat aperiam placeat, eligendi atque maxime accusamus tenetur cumque distinctio veniam quos tempora aliquid, fugit dolorum optio earum, nihil explicabo esse delectus?
-                </p>
-
-                <p> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugit officia, nulla voluptatum quam voluptate repellat saepe? Aspernatur, officia facere animi veritatis molestias ullam. Repellat sint at provident a quia numquam.</p>
+                <p>Copart est un site web d'entraide qui vous met en lien avec les personnes de votre région. Nous proposons des centaines de profils qualifiés dans tout type de domaines ! </p>
+                <p>Peinture, carlage ou encore jardinage ! Vous disposez de compétences techniques et vous avez le sens du partage ? </p>
+                <p>Proposez vos services sur Copart, faites des rencontres, entraidez vous et apprenez auprès de vos voisins.</p>
             </div>
                 
             <Footer />

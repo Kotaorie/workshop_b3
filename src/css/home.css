@@ -3,5 +3,10 @@
 
 }
 .homeSpace {
-    margin-left: 5vh;
+    margin-left: 50px;
+    text-justify: distribute;
+    text-align: center;
+    margin-right: 50px;
+    margin-bottom: 40px;
+    color: rgb(40, 18, 18);
 }
