@@ -8,17 +8,12 @@ function Navbar() {
     <div>
       <div className="navdiv">
         <div>
-          <img src="/img/logo.png" alt="test" />
+          <img src="/images/logo.png" alt="test" />
         </div>
         <ul>
           <li>
             <NavLink to="/" className="navbar-link">
               Home
-            </NavLink>
-          </li>
-          <li>
-            <NavLink to="/help" className="navbar-link">
-              Co'Help
             </NavLink>
           </li>
           <li>
@@ -32,7 +27,8 @@ function Navbar() {
             </NavLink>
           </li>
           <li>
-            <NavLink to="/mission" className="navbar-link">
+            <NavLink to="/createMission" className="navbar-link">
+
               Co'Mission
             </NavLink>
           </li>

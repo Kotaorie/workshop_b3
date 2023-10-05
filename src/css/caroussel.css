@@ -1,0 +1,15 @@
+.carousel {
+    position: relative; /* Set the carousel container to a relative position */
+    display: flex;
+    overflow: hidden;
+    max-width: 100%;
+    /* Ajustez la largeur du carrousel selon vos besoins */
+  }
+  
+  .carousel img {
+    width: 100%; /* Ajustez la largeur de l'image à 100% pour qu'elle s'adapte à la largeur du carrousel */
+    height: auto; /* Laissez la hauteur automatique pour maintenir les proportions */
+    max-height: 300px; /* Ajustez la hauteur maximale souhaitée */
+    padding-left: 0;
+    z-index: 0;
+  }
