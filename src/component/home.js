@@ -7,7 +7,7 @@ function Co_missions(){
 
     const [currentSlide, setCurrentSlide] = useState(0);
     const images = [
-      "/images/honey-352205_1280.jpg",
+      "/images/cityscapes_old_Czech_history_flags_town_Prague_rivers_1920x1271.jpg",
       "/images/nature-845849_1280.jpg",
       "/images/windmill-5591464_1280.jpeg",
     ];
