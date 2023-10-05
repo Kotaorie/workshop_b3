@@ -16,7 +16,7 @@ function Co_missions(){
     useEffect(() => {
         const interval = setInterval(() => {
           nextSlide();
-        }, 10000); // Changez cette valeur pour ajuster la durée entre les diapositives (en millisecondes)
+        }, 9999); // Changez cette valeur pour ajuster la durée entre les diapositives (en millisecondes)
     
         return () => {
           clearInterval(interval);
@@ -39,24 +39,15 @@ function Co_missions(){
             </div>
 
             <div className="carousel">
-                <div className="carousel-buttons prev-button">
-                    <button className="prev" onClick={previousSlide}>
-                        &#9664; 
-                    </button>
+                <div className="carousel-buttons">
                 </div>
-
-
                     <img className={`carousel-slide ${currentSlide === 0 ? "active" : ""}`}
                         src={images[currentSlide]}
                         alt={`image${currentSlide + 1}`}
                     />
 
 
-                <div className="carousel-buttons next-button">
-                    <button className="next" onClick={nextSlide}>
-                        &#9654;
-                    </button>
-                </div>
+               
             </div>
 
             <div className="homeSpace">

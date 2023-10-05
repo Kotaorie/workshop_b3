@@ -1,34 +1,15 @@
 .carousel {
-    display: flex;
-    overflow: hidden;
-    max-width: 100%; 
-    margin-left: 10 vh;/* Ajustez la largeur du carrousel selon vos besoins */
-  }
-  
+  position: relative; /* Set the carousel container to a relative position */
+  display: flex;
+  overflow: hidden;
+  max-width: 100%;
+  /* Ajustez la largeur du carrousel selon vos besoins */
+}
+
 .carousel img {
-    width: 100%; /* Ajustez la largeur de l'image à 100% pour qu'elle s'adapte à la largeur du carrousel */
-    height: auto; /* Laissez la hauteur automatique pour maintenir les proportions */
-    max-height: 500px; /* Ajustez la hauteur maximale souhaitée */
-  }
-
-.carousel-buttons {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-  }
-  
-.prev-button {
-    left: 0;
-    display: flex;
-    align-items: center;
-  }
-  
-.next-button {
-    right: 0;
-    display: flex;
-    align-items: center;
-  }
-
-.centerDiv {
-    margin-left: 90;
+  width: 100%; /* Ajustez la largeur de l'image à 100% pour qu'elle s'adapte à la largeur du carrousel */
+  height: auto; /* Laissez la hauteur automatique pour maintenir les proportions */
+  max-height: 500px; /* Ajustez la hauteur maximale souhaitée */
+  padding-left: 0;
+  z-index: 0;
 }
