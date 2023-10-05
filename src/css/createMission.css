@@ -31,17 +31,19 @@ h2 {
     text-align: center;
 }
 
-form {
+.create {
     background-color: #98d1d7;
     padding: 10px 60px;
     padding-bottom: 10px;
     border-radius: 20px;
+    width: 50%;
+    margin:0 auto;
 }
 
 fieldset{
     border-radius: 10px;
     width: 50vh;
-    border: 0px solid gray;
+    border: 1px solid gray;
 }
 
 label{

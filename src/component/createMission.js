@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import "../css/home.css";
+
 import "../css/createMission.css";
 import Footer from './footer';
 
@@ -20,14 +20,12 @@ function CreateMission(){
     const handleCreateMission = () =>{
 
     }
-
     return (
         <div className='mission'>
-            <form action="">
+            <form className='create'>
             <div>
                 <h2>  Ajouter une mission</h2>
             </div>
-
                 <fieldset>
                     <div className='formInput'>
                         <label htmlFor="">
@@ -35,14 +33,12 @@ function CreateMission(){
                             <input type="text" value={title} onChange={ (e)=>setTitle(e.target.value) } />
                         </label>
                     </div>
-
                     <div>
                         <label htmlFor="">
                             Description de la mission :
                             <textarea value={description} onChange={ (e)=>setDescription(e.target.value) } name="description" cols="20" rows="7"></textarea>
                         </label>
-                    </div>
-                    
+                    </div>         
                     <div>
                         <label htmlFor="">
                             Ajouter vos images

@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import "../css/home.css";
+import "../css/createAccount.css";
 import Footer from './footer';
 import axios from 'axios';
 
@@ -25,7 +26,7 @@ function CreateAccount() {
       .then(response => {
         // La requête Axios a réussi, vous pouvez traiter la réponse ici
         console.log('Inscription réussie !');
-        // Redirigez l'utilisateur vers la page de connexion ou effectuez une autre action nécessaire
+        
       })
       .catch(error => {
         // Gérez les erreurs de la requête ici

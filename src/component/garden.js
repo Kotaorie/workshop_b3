@@ -7,7 +7,7 @@ function Garden() {
     <div>
       <p>jardinage</p>
       <MapContainer />
-      <Footer />
+      <Footer className=""/>
     </div>
   );
 }
