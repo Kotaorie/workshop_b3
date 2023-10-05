@@ -1,4 +1,3 @@
-// maps.js
 import React from 'react';
 import { GoogleMap, LoadScript, Marker } from '@react-google-maps/api';
 
@@ -14,6 +13,7 @@ const MapContainer = () => {
   };
 
   const gardenLocations = [
+    { lat: 44.837789, lng: -0.579180, name: 'Bordeaux' },
     { lat: 44.837789, lng: -0.580000, name: 'Jardin Public 1' },
     { lat: 44.830000, lng: -0.590000, name: 'Jardin Public 2' },
     { lat: 44.840000, lng: -0.570000, name: 'Jardin Public 3' },
