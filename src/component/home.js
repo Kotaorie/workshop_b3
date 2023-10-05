@@ -9,7 +9,7 @@ function Co_missions(){
     const images = [
       "/images/honey-352205_1280.jpg",
       "/images/nature-845849_1280.jpg",
-      "/images/windmill-5591464_1280.jpg",
+      "/images/windmill-5591464_1280.jpeg",
     ];
 
     useEffect(() => {
