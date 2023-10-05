@@ -22,7 +22,7 @@ function CreateMission(){
     }
     return (
         <div className='mission'>
-            <form className='create'>
+            <form>
             <div>
                 <h2>  Ajouter une mission</h2>
             </div>

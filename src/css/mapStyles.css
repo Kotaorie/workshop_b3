@@ -1,0 +1,56 @@
+#map-container {
+  background-color: #98d1d7;
+  padding: 10px 30px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+h2 {
+  color: rgb(154, 154, 154);
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #fff;
+  margin-bottom: 20px;
+}
+
+th, td {
+  border: 1px solid #ccc;
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color: #ddd;
+}
+
+tr:hover {
+  background-color: #e0e0e0;
+}
+
+button {
+  padding: 5px 10px;
+  margin: 5px;
+  border: none;
+  background-color: #98d1d7;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #007BFF;
+}
+
+button.active {
+  background-color: #28a745;
+}
