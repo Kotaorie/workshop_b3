@@ -1,14 +1,37 @@
 import React, { useState } from 'react';
 import "../css/home.css";
 import Footer from './footer';
+import axios from 'axios';
 
-function CreateAccount(){
-    const [name, setName] = useState('');
-    const [email, setEmail] = useState('');
-    const [phone, setPhone] = useState('');
-    const [password, setPassword] = useState('');
-    const [confirmPassword, setConfirmPassword] = useState('');
-    const handleRegister = () => {}
+function CreateAccount() {
+  const [name, setName] = useState('');
+  const [email, setEmail] = useState('');
+  const [phone, setPhone] = useState('');
+  const [password, setPassword] = useState('');
+  const [confirmPassword, setConfirmPassword] = useState('');
+
+  const handleRegister = () => {
+    // Créez un objet contenant les données du formulaire
+    const userData = {
+      name: name,
+      email: email,
+      phone: phone,
+      password: password,
+      confirmPassword: confirmPassword,
+    };
+
+    // Envoyez une requête POST au serveur avec les données du formulaire
+    axios.post('/votre-point-d-enregistrement', userData)
+      .then(response => {
+        // La requête Axios a réussi, vous pouvez traiter la réponse ici
+        console.log('Inscription réussie !');
+        // Redirigez l'utilisateur vers la page de connexion ou effectuez une autre action nécessaire
+      })
+      .catch(error => {
+        // Gérez les erreurs de la requête ici
+        console.error('Erreur lors de l\'inscription :', error);
+      });
+  };
 return (
     <div>
         <h2>Inscription</h2>

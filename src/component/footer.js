@@ -2,7 +2,7 @@ import React from "react";
 import "../css/footer.css";
 import Instagram from "../icone/instagram.png";
 import Facebook from "../icone/facebook.png";
-import X from "../icone/x.png";
+import X from "../icone/x.jpg";
 import Linkedin from "../icone/linkedin.png";
 
 function Footer() {
