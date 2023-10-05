@@ -6,6 +6,7 @@ import Help from "./component/help";
 import Sensi from "./component/sensi";
 import Profil from "./component/profil";
 import CreateAccount from "./component/createAccount";
+import CreateMission from "./component/createMission";
 import LogIn from "./component/logIn";
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
           <Route path="sensi" element={<Sensi />} />
           <Route path="profil" element={<Profil />} />
           <Route path="createAccount" element={<CreateAccount />} />
+          <Route path="createMission" element = {<CreateMission />} />
           <Route path="logIn" element={<LogIn />} />
         </Route>
       </Routes>

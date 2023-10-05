@@ -9,7 +9,6 @@ function Footer() {
   return (
     <footer className="footer">
       <div className="container">
-        <p>&copy; 2023 Co'PART </p>
         <div className="reseau-social">
           <a href="https://www.instagram.com/">
             <img src={Instagram} alt="instagram" />
@@ -22,7 +21,15 @@ function Footer() {
           </a>
           <a href="https://www.x.com/">
             <img src={X} alt="x" />
-            </a>
+          </a>
+        </div>
+        <div className="copyright">
+          <p>Copyright &copy; Team 5 - Co'Part</p>
+        </div>
+        <div className="footer-link">
+          <a href="#">Contact</a>
+
+          <a href="#">Politique de confidentialité</a>
         </div>
       </div>
     </footer>

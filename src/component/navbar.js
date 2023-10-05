@@ -17,11 +17,6 @@ function Navbar() {
             </NavLink>
           </li>
           <li>
-            <NavLink to="/help" className="navbar-link">
-              Co'Help
-            </NavLink>
-          </li>
-          <li>
             <NavLink to="/garden" className="navbar-link">
               Co'Garden
             </NavLink>
@@ -32,7 +27,7 @@ function Navbar() {
             </NavLink>
           </li>
           <li>
-            <NavLink to="/mission" className="navbar-link">
+            <NavLink to="/createMission" className="navbar-link">
               Co'Mission
             </NavLink>
           </li>
