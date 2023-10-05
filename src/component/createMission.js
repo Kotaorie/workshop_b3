@@ -32,7 +32,7 @@ function CreateMission(){
                     <div className='formInput'>
                         <label htmlFor="">
                             Titre de la mission :
-                            <input type="text" value={title} onChange={ (e)=>setTitle(e.target.value) } />
+                            <input required = {true} type="text" value={title} onChange={ (e)=>setTitle(e.target.value) } />
                         </label>
                     </div>
 
