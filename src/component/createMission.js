@@ -61,8 +61,11 @@ function CreateMission(){
 
                     <div >
                         <label > Points de la mission</label>
-                        <input id='lesPoints' type="range" min={0} max={10000} value={points} onChange={e=>setPoints(e.target.value)} step={10}/>
-                        <h2> {points} </h2>
+                        <div className='point_bar'>
+                            <input id='lesPoints' type="range" min={0} max={10000} value={points} onChange={e=>setPoints(e.target.value)} step={10}/>
+                            <h2> {points} </h2>
+                        </div>
+                        
                     </div>
                     <div>
                         <button type= "button" onClick={handleCreateMission}> Créer la mission </button>

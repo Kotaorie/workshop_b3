@@ -9,7 +9,6 @@ function CreateAccount() {
   const [email, setEmail] = useState('');
   const [phone, setPhone] = useState('');
   const [password, setPassword] = useState('');
-  const [confirmPassword, setConfirmPassword] = useState('');
 
   const handleRegister = () => {
     // Créez un objet contenant les données du formulaire
@@ -18,19 +17,18 @@ function CreateAccount() {
       email: email,
       phone: phone,
       password: password,
-      confirmPassword: confirmPassword,
     };
 
     // Envoyez une requête POST au serveur avec les données du formulaire
-    axios.post('/votre-point-d-enregistrement', userData)
+    axios.post('http://90.29.100.248:4000/api/users/register', userData)
       .then(response => {
         // La requête Axios a réussi, vous pouvez traiter la réponse ici
-        console.log('Inscription réussie !');
+        console.log('Inscription réussie !', response);
         
       })
       .catch(error => {
         // Gérez les erreurs de la requête ici
-        console.error('Erreur lors de l\'inscription :', error);
+        console.error('Erreur lors de l\'inscription :', error,'validations des données :',name, email, phone, password );
       });
   };
 return (
@@ -61,12 +59,6 @@ return (
             <label>
               Mot de passe:
               <input type="password" value={password} onChange={(e) => setPassword(e.target.value)} />
-            </label>
-          </div>
-          <div>
-            <label>
-              Confirmez le mot de passe:
-              <input type="password" value={confirmPassword} onChange={(e) => setConfirmPassword(e.target.value)} />
             </label>
           </div>
           <p>Déjà inscrit ? Connectez-vous.</p>
