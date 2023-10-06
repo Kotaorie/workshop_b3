@@ -9,10 +9,11 @@ function LogIn(){
 
     const handleLogin = () => {}
     return (
-        <div>
-            <h2>Connexion</h2>
+        <div className='mission'> 
+            
             <form>
             <fieldset>
+                <h2>Connexion</h2>
                 <div>
                 <label>
                     E-mail

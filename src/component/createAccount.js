@@ -34,10 +34,11 @@ function CreateAccount() {
       });
   };
 return (
-    <div>
-        <h2>Inscription</h2>
+    <div className='mission'>
+        
         <form>
         <fieldset>
+            <h2>Inscription</h2>
             <div>
                 <label>
                     Nom d'utilisateur

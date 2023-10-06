@@ -17,7 +17,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Navbar />}>
           <Route index element={<Home />} /> 
-          <Route index element={<Co_missions />} />  
+        {/*  <Route index element={<Co_missions />} />  */}
           <Route path="help" element={<Help />} />
           <Route path="garden" element={<Garden />} />
           <Route path="sensi" element={<Sensi />} />

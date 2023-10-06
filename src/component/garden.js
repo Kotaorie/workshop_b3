@@ -5,7 +5,7 @@ import Footer from "./footer";
 function Garden() {
   return (
     <div>
-      <p>jardinage</p>
+      <p></p>
       <MapContainer />
       <Footer className=""/>
     </div>
