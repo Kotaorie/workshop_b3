@@ -22,11 +22,13 @@ function CreateMission(){
     }
     return (
         <div className='mission'>
+           
             <form>
-            <div>
-                <h2>  Ajouter une mission</h2>
-            </div>
+                        
                 <fieldset>
+                    <div className="title">
+                        <h2>  Ajouter une mission</h2>
+                    </div>
                     <div className='formInput'>
                         <label htmlFor="">
                             Titre de la mission :
