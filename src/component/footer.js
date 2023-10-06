@@ -10,16 +10,16 @@ function Footer() {
     <footer className="footer">
       <div className="container">
         <div className="reseau-social">
-          <a href="https://www.instagram.com/">
+          <a href="https://www.instagram.com/copartbdx/">
             <img src={Instagram} alt="instagram" />
           </a>
-          <a href="https://www.facebook.com/">
+          <a href="https://www.facebook.com/co.partbdx/">
             <img src={Facebook} alt="facebook" />
           </a>
-          <a href="https://www.linkedin.com/">
+          <a href="https://www.linkedin.com/company/co-partbdx?_l=fr_FR">
             <img src={Linkedin} alt="linkedin" />
           </a>
-          <a href="https://www.x.com/">
+          <a href="https://twitter.com/Copartbdx">
             <img src={X} alt="x" />
           </a>
         </div>
